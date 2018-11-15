@@ -8,6 +8,8 @@ nmap <localleader>e :NERDTreeToggle<CR>
 " better ESC
 inoremap jj <esc>
 
+tnoremap <Esc> <C-\><C-n>
+
 " fast save and close
 nmap <leader>w :w<CR>
 nmap <leader>x :x<CR>
@@ -25,3 +27,5 @@ xmap <Leader>l <Plug>(sidemenu-visual)
 nnoremap <Leader>r :source $MYVIMRC<CR>
 
 noremap <Leader>a :Ack <cword><cr>
+nmap <localleader>c :call NewTerminal()<CR>
+nmap <localleader>d :call NewDoubleTerminal()<CR>

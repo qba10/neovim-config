@@ -12,7 +12,8 @@ set timeout ttimeout
 set timeoutlen=750  " Time out on mappings
 set updatetime=1000 " Idle time to write swap and trigger CursorHold
 set ttimeoutlen=10
-
+set splitbelow
+set splitright
 
 nnoremap <Space>	<Nop>
 xnoremap <Space>	<Nop>

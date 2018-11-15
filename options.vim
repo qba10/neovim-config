@@ -13,6 +13,7 @@ set showmatch                " highlight matching brace
 set laststatus=2             " window will always have a status line
 set nobackup
 set noswapfile
+
 let &colorcolumn="80,".join(range(119,999),",")
 
 " set Ag as the grep command
@@ -50,3 +51,16 @@ set listchars=tab:›\ ,eol:¬,trail:⋅
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
+
+function NewTerminal()
+  set splitbelow
+  set splitright
+  10sp | terminal bash
+endfunction
+
+function NewDoubleTerminal()
+  set splitbelow
+  set splitright
+  10sp | terminal bash
+  vs |terminal bash
+endfunction
