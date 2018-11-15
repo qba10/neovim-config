@@ -23,3 +23,5 @@ nmap <Leader>l <Plug>(sidemenu)
 xmap <Leader>l <Plug>(sidemenu-visual)
 
 nnoremap <Leader>r :source $MYVIMRC<CR>
+
+noremap <Leader>a :Ack <cword><cr>

@@ -12,20 +12,25 @@ Plug 'iCyMind/NeoSolarized'
 Plug 'tpope/vim-sensible'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'itchyny/vim-cursorword'
-Plug 'nathanaelkane/vim-indent-guides'
 Plug 'tpope/vim-sleuth'
 Plug 'qba10/vim-sidemenu'
 Plug 'qba10/vim-session'
 Plug 'xolox/vim-misc'
 Plug 'tpope/vim-fugitive'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'mhinz/vim-signify'
+Plug 'thinca/vim-localrc'
+Plug 'Shougo/deoplete.nvim'
+Plug 'vivien/vim-linux-coding-style'
+Plug 'justinmk/vim-syntax-extra'
+Plug 'mileszs/ack.vim'
 
 "Lazy load plugins:
 "
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle'}
-
 
 call plug#end()
 
