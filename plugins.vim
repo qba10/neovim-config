@@ -26,6 +26,9 @@ Plug 'Shougo/deoplete.nvim'
 Plug 'vivien/vim-linux-coding-style'
 Plug 'justinmk/vim-syntax-extra'
 Plug 'mileszs/ack.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
 
 "Lazy load plugins:
 "
