@@ -38,3 +38,5 @@ vnoremap p "+p
 nnoremap d "+d
 vnoremap d "+d
 
+nmap <leader>b :Buffers<CR>
+nmap <leader>f :GitFiles<CR>
