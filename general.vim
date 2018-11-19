@@ -1,5 +1,4 @@
 set termguicolors
-set clipboard=unnamedplus
 
 set nocompatible
 set hidden
