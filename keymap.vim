@@ -15,9 +15,6 @@ nmap <leader>w :w<CR>
 nmap <leader>x :x<CR>
 nmap <leader>q :q<CR>
 
-" insert blank line before current line without leaving insert mode
-imap <leader>o <c-o><s-o>
-
 nmap <Tab>  <C-w>w
 nmap <S-Tab>  <C-w>W
 
@@ -40,3 +37,8 @@ vnoremap d "+d
 
 nmap <leader>b :Buffers<CR>
 nmap <leader>f :GitFiles<CR>
+
+nnoremap <silent> <c-l> :call Focus('right', 'l')<CR>
+nnoremap <silent> <c-h> :call Focus('left', 'h')<CR>
+nnoremap <silent> <c-k> :call Focus('up', 'k')<CR>
+nnoremap <silent> <c-j> :call Focus('down', 'j')<CR>

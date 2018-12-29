@@ -64,3 +64,21 @@ function NewDoubleTerminal()
   10sp | terminal bash
   vs |terminal bash
 endfunction
+
+autocmd BufEnter * call ncm2#enable_for_buffer()
+
+" IMPORTANTE: :help Ncm2PopupOpen for more information
+set completeopt=noinsert,menuone,noselect
+
+
+
+" c-j c-k for moving in snippet
+let g:snips_no_mappings = 1
+vmap <c-j> <Plug>snipMateNextOrTrigger
+vmap <c-k> <Plug>snipMateBack
+imap <expr> <c-k> pumvisible() ? "\<c-y>\<Plug>snipMateBack" : "\<Plug>snipMateBack"
+imap <expr> <c-j> pumvisible() ? "\<c-y>\<Plug>snipMateNextOrTrigger" : "\<Plug>snipMateNextOrTrigger"
+
+"path to the libclang.so file
+let g:ncm2_pyclang#library_path = '/usr/lib64/llvm5.0/lib/libclang.so.5.0'
+

@@ -21,15 +21,27 @@ Plug 'tpope/vim-fugitive'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'mhinz/vim-signify'
-Plug 'thinca/vim-localrc'
-Plug 'Shougo/deoplete.nvim'
-Plug 'vivien/vim-linux-coding-style'
 Plug 'justinmk/vim-syntax-extra'
+Plug 'thinca/vim-localrc'
 Plug 'mileszs/ack.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-
-
+Plug 'jsfaint/gen_tags.vim'
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+Plug 'ncm2/ncm2-gtags'
+Plug 'ncm2/ncm2-snipmate'
+Plug 'ncm2/ncm2-pyclang'
+Plug 'ncm2/ncm2-neoinclude'
+Plug 'Shougo/neoinclude.vim'
+Plug 'ncm2/ncm2-path'
+Plug 'jiangmiao/auto-pairs'
+Plug 'vivien/vim-linux-coding-style'
+Plug 'EESchneider/vim-rebase-mode'
+" snipmate dependencies
+Plug 'tomtom/tlib_vim'
+Plug 'marcweber/vim-addon-mw-utils'
+Plug 'garbas/vim-snipmate'
 "Lazy load plugins:
 "
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
